@@ -38,9 +38,10 @@ p:nth-of-type(2) {
     background-color: white;
 }
 
-/* Fifth paragraph: darker blue */
+/* Fourth and fifth paragraphs: blue background and white text */
+p:nth-of-type(4),
 p:nth-of-type(5) {
-    background-color: midnightblue;
+    background-color: blue;
     color: white;
     padding: 12px;
 }
@@ -83,7 +84,6 @@ th {
 
 /* Table cells */
 td {
-    background-color: white;
+    background-color: #eeeeee;
     padding: 8px;
 }
-
