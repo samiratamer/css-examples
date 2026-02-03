@@ -26,7 +26,7 @@ p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 15px;
-    padding: 0; /* Ensure no extra padding by default */
+    padding: 0; /* default padding */
 }
 
 /* Second paragraph: bordered box */
@@ -40,11 +40,19 @@ p:nth-of-type(2) {
 }
 
 /* Fourth paragraph: dark blue, aligned with others */
-p:nth-of-type(4),
-p:nth-of-type(5) {
+p:nth-of-type(4) {
     background-color: navy; /* dark blue */
     color: white;
     padding: 8px; /* small padding for readability */
-    margin: 0 0 15px 0; /* keep same bottom spacing as normal paragraphs */
-    width: auto; /* remove any box width constraints */
+    margin: 0 0 15px 0; /* keep same spacing as normal paragraphs */
+    width: auto; /* align with other paragraphs */
+}
+
+/* Fifth paragraph: darker blue, aligned with others */
+p:nth-of-type(5) {
+    background-color: midnightblue; /* darker blue */
+    color: white;
+    padding: 8px;
+    margin: 0 0 15px 0;
+    width: auto;
 }
