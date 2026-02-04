@@ -29,7 +29,7 @@ p {
 }
 
 /* Second paragraph: bordered box */
-p.special-box {
+p:nth-of-type(2) {
     width: 80%;
     margin: 20px auto;
     padding: 15px;
@@ -38,9 +38,16 @@ p.special-box {
     background-color: white;
 }
 
-/* Fourth and fifth paragraphs: blue background and white text */
-p.blue-text {
-    background-color: blue;
+/* Fourth paragraph: dark blue */
+p:nth-of-type(4) {
+    background-color: navy;
+    color: white;
+    padding: 12px;
+}
+
+/* Fifth paragraph: darker blue */
+p:nth-of-type(5) {
+    background-color: midnightblue;
     color: white;
     padding: 12px;
 }
@@ -83,6 +90,6 @@ th {
 
 /* Table cells */
 td {
-    background-color: #eeeeee;
+    background-color: white;
     padding: 8px;
 }
