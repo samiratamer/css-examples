@@ -38,18 +38,20 @@ p:nth-of-type(2) {
     background-color: white;
 }
 
-/* Fourth paragraph: dark blue */
+/* Fourth paragraph: dark blue background, no border */
 p:nth-of-type(4) {
     background-color: navy;
     color: white;
     padding: 12px;
+    border: none; /* ensure no box */
 }
 
-/* Fifth paragraph: darker blue */
+/* Fifth paragraph: darker blue background, no border */
 p:nth-of-type(5) {
     background-color: navy;
     color: white;
     padding: 12px;
+    border: none; /* ensure no box */
 }
 
 /* Default link color (list items) */
