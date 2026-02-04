@@ -29,25 +29,17 @@ p {
 }
 
 /* Second paragraph: bordered box */
-p:nth-of-type(2) {
+p#paragraph2 {
     width: 80%;
     margin: 20px auto;
     padding: 15px;
-    border: 3px solid green;
+    border: 3px solid green; /* Only the 2nd paragraph has a border */
     line-height: 1.8;
     background-color: white;
 }
 
-/* Fourth paragraph: dark blue background, no border */
-p:nth-of-type(4) {
-    background-color: navy;
-    color: white;
-    padding: 12px;
-    border: none;
-}
-
-/* Fifth paragraph: darker blue background, no border */
-p:nth-of-type(5) {
+/* Blue paragraphs (4th and 5th in content) */
+p.blue {
     background-color: navy;
     color: white;
     padding: 12px;
