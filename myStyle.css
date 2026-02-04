@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0 20px;
 }
+
 /* Main page title */
 h1 {
     text-align: center;
@@ -12,52 +13,61 @@ h1 {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
 /* Section headers */
 h2 {
     font-size: 22px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
 /* Base paragraph styling */
 p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
 /* Second paragraph: bordered box */
-p:nth-of-type(2) {
+p.boxed {
     width: 80%;
     margin: 20px auto;
     padding: 15px;
     border: 3px solid green;
     line-height: 1.8;
-    background-color: white; /* #e9ffe9 ≈ honeydew */
+    background-color: white; 
 }
+
 /* Fourth paragraph: dark blue */
 p:nth-of-type(4) {
-    background-color: navy; /* #003366 ≈ navy */
+    background-color: navy; 
     color: white;
     padding: 12px;
 }
+
 /* Fifth paragraph: darker blue */
 p:nth-of-type(5) {
-    background-color: navy; /* #001f4d ≈ midnightblue */
+    background-color: navy; 
     color: white;
     padding: 12px;
 }
+
 /* Default link color (list items) */
 a {
     color: blue;
 }
+
 /* W3Schools link color */
 a[href*="w3schools"] {
     color: darkred;
 }
+
 /* Ordered list with two-digit numbering */
 ol {
     list-style-type: decimal-leading-zero;
     margin-left: 25px;
 }
+
 /* Table styling */
 table {
     border-collapse: collapse;
@@ -65,18 +75,21 @@ table {
     background-color: white;
     margin-top: 15px;
 }
+
 /* Table borders */
 table, th, td {
     border: 1px solid black;
 }
+
 /* Table header */
 th {
-    background-color: lightgray; /* #cccccc ≈ lightgray */
+    background-color: lightgray; 
     padding: 8px;
     text-align: left;
 }
+
 /* Table cells */
 td {
-    background-color: white; /* #eeeeee ≈ gainsboro */
+    background-color: white; 
     padding: 8px;
 }
